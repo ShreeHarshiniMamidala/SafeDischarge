@@ -1,0 +1,101 @@
+instruction_id,condition,source_type,instruction_text,quality_label,has_medication_review,has_followup,has_warning_signs,has_home_care,has_test_results
+ROW_001,heart_failure,synthetic_high,"You were treated for heart failure. Take your medicines exactly as prescribed. Weigh yourself every morning before breakfast. Limit salt. Follow up with cardiology within 7 days. Go to the emergency room for chest pain, fainting, or severe shortness of breath.",high,1,1,1,1,0
+ROW_002,heart_failure,synthetic_medium,Take your heart medicines as prescribed. Limit salt and follow up with your doctor next week. Call if symptoms get worse.,medium,1,1,1,1,0
+ROW_003,heart_failure,synthetic_low,Stable for discharge. Continue meds. Follow up as needed.,low,0,1,0,0,0
+ROW_004,pneumonia,synthetic_high,Take the full antibiotic course even if you feel better. Use your inhaler if prescribed. Drink fluids and rest. Call your doctor if your cough worsens or you have difficulty breathing.,high,1,1,1,1,0
+ROW_005,pneumonia,synthetic_medium,Complete your medicine and contact your doctor if symptoms worsen.,medium,1,1,0,0,0
+ROW_006,pneumonia,synthetic_low,Go home and continue treatment.,low,0,0,0,0,0
+ROW_007,diabetes,synthetic_high,"Monitor your blood sugar closely at home. Take insulin and medicines exactly as instructed. Follow up with clinic next week. Get help right away for severe low sugar, confusion, or vomiting.",high,1,1,1,1,0
+ROW_008,diabetes,synthetic_medium,Continue diabetes medications and watch your blood sugar at home.,medium,1,0,0,0,0
+ROW_009,diabetes,synthetic_low,Stable for discharge with diabetes treatment.,low,0,0,0,0,0
+ROW_010,post_surgery,synthetic_high,"Keep your incision clean and dry. Take pain medicine only as directed. Do not lift heavy objects for 2 weeks. Follow up with surgery clinic in 7 days. Go to the emergency room for fever, heavy bleeding, or worsening pain.",high,1,1,1,1,0
+ROW_011,post_surgery,synthetic_medium,Keep the wound clean and take pain medicine if needed. Follow up with surgery clinic.,medium,1,1,0,1,0
+ROW_012,post_surgery,synthetic_low,Post-op instructions provided. Activity as tolerated.,low,0,0,0,0,0
+ROW_013,copd,synthetic_high,"You were treated for a COPD flare. Rest, use inhalers correctly, and avoid smoking. Seek help right away for severe breathing trouble. Make a follow-up appointment within 7 days.",high,1,1,0,1,0
+ROW_014,copd,synthetic_medium,Continue breathing treatments and avoid smoking.,medium,0,0,0,1,0
+ROW_015,copd,synthetic_low,Return home and continue care.,low,0,0,0,0,0
+ROW_016,heart_failure,synthetic_high,Take your heart failure medicines every day. Limit salt and fluids as instructed. Weigh yourself each morning and write it down. Follow up with your heart doctor next week. Seek emergency care for severe breathing trouble or chest pain.,high,1,1,1,1,0
+ROW_017,heart_failure,synthetic_medium,Take your medications every day and try to limit salt. Contact your doctor if swelling or shortness of breath increases.,medium,1,1,0,1,0
+ROW_018,heart_failure,synthetic_low,Heart failure improved. Continue usual care.,low,0,0,0,0,0
+ROW_019,pneumonia,synthetic_high,"You were treated for pneumonia. Finish all antibiotics. Rest and drink plenty of fluids. Follow up with your doctor in one week. Seek urgent care for worsening fever, chest pain, or trouble breathing.",high,1,1,1,1,0
+ROW_020,pneumonia,synthetic_medium,Take antibiotics as directed. Rest and drink fluids. Follow up with your doctor.,medium,1,1,0,1,0
+ROW_021,pneumonia,synthetic_low,Pneumonia improved. Discharge today.,low,0,0,0,0,0
+ROW_022,diabetes,synthetic_high,"You were treated for diabetes-related problems. Continue insulin and diabetes pills as directed. Watch for sweating, shaking, confusion, or very high sugar readings. Schedule follow-up in 7 days.",high,1,1,1,0,0
+ROW_023,diabetes,synthetic_medium,Check sugars regularly and call your doctor for low blood sugar.,medium,0,1,1,0,0
+ROW_024,diabetes,synthetic_low,Resume diabetes care at home.,low,0,0,0,0,0
+ROW_025,post_surgery,synthetic_high,"Take your pain medicine only if needed. Keep the wound dry and avoid heavy lifting. Call your surgeon for drainage, redness, fever, or worsening pain. Follow up in one week.",high,1,1,1,1,0
+ROW_026,post_surgery,synthetic_medium,Take care of the incision and arrange follow-up soon.,medium,0,1,0,0,0
+ROW_027,post_surgery,synthetic_low,Surgery recovery stable. Resume routine as able.,low,0,0,0,0,0
+ROW_028,copd,synthetic_high,Use your inhalers exactly as prescribed. Finish your steroid or antibiotic if one was ordered. Avoid smoke exposure. Follow up with your doctor in one week. Go to urgent care for worsening shortness of breath or blue lips.,high,1,1,1,1,0
+ROW_029,copd,synthetic_medium,Use inhalers as directed and follow up with your doctor. Call if breathing gets worse.,medium,1,1,1,0,0
+ROW_030,copd,synthetic_low,COPD stable for discharge.,low,0,0,0,0,0
+ROW_031,heart_failure,synthetic_high,Your heart failure symptoms improved. Keep taking your water pill and heart medicines. Check your weight every day and call your doctor if you gain more than 2 pounds in a day. Follow up in one week. Get urgent help for trouble breathing or chest pain.,high,1,1,1,0,0
+ROW_032,heart_failure,synthetic_medium,Continue your medicines and watch for swelling or breathing problems. Make a follow-up appointment soon.,medium,1,1,0,0,0
+ROW_033,heart_failure,synthetic_low,Discharge home today. Resume treatment plan.,low,0,0,0,0,0
+ROW_034,pneumonia,synthetic_high,"You are going home after pneumonia treatment. Take your medicines exactly as directed. Rest, drink water, and follow up with your doctor within 7 days. Get emergency help for severe breathing problems.",high,1,1,1,1,0
+ROW_035,pneumonia,synthetic_medium,"Continue treatment at home, get rest, and call if breathing gets worse.",medium,0,0,1,1,0
+ROW_036,pneumonia,synthetic_low,Patient stable for home discharge.,low,0,0,0,0,0
+ROW_037,diabetes,synthetic_high,Check your blood sugar before meals and at bedtime. Take insulin exactly as prescribed. Eat regular meals. Follow up with your doctor within one week. Call if your blood sugar is repeatedly low or above your target range.,high,1,1,1,0,0
+ROW_038,diabetes,synthetic_medium,Take insulin as prescribed and monitor your blood sugar. Follow up with clinic next week.,medium,1,1,0,1,0
+ROW_039,diabetes,synthetic_low,Diabetes instructions given. Continue medications.,low,1,0,0,0,0
+ROW_040,post_surgery,synthetic_high,"You had surgery and are ready to go home. Walk a little each day. Watch for redness, swelling, drainage, or fever. Follow up with your surgeon next week.",high,0,1,1,1,0
+ROW_041,post_surgery,synthetic_medium,Avoid heavy lifting and call if pain worsens.,medium,0,0,1,1,0
+ROW_042,post_surgery,synthetic_low,Discharge home after surgery.,low,0,0,0,0,0
+ROW_043,copd,synthetic_high,Continue your inhalers and breathing treatments at home. Do not smoke. Call your doctor if your cough or breathing worsens. Get emergency help for severe shortness of breath.,high,1,1,1,0,0
+ROW_044,copd,synthetic_medium,Take your medicines and monitor your breathing at home.,medium,1,0,0,1,0
+ROW_045,copd,synthetic_low,Patient improved and ready for discharge.,low,0,0,0,0,0
+ROW_046,heart_failure,synthetic_high,"You were treated for heart failure. Take your medicines exactly as prescribed. Weigh yourself every morning before breakfast. Limit salt. Follow up with cardiology within 7 days. Go to the emergency room for chest pain, fainting, or severe shortness of breath.",high,1,1,1,1,0
+ROW_047,heart_failure,synthetic_medium,Take your heart medicines as prescribed. Limit salt and follow up with your doctor next week. Call if symptoms get worse.,medium,1,1,1,1,0
+ROW_048,heart_failure,synthetic_low,Stable for discharge. Continue meds. Follow up as needed.,low,0,1,0,0,0
+ROW_049,pneumonia,synthetic_high,Take the full antibiotic course even if you feel better. Use your inhaler if prescribed. Drink fluids and rest. Call your doctor if your cough worsens or you have difficulty breathing.,high,1,1,1,1,0
+ROW_050,pneumonia,synthetic_medium,Complete your medicine and contact your doctor if symptoms worsen.,medium,1,1,0,0,0
+ROW_051,pneumonia,synthetic_low,Go home and continue treatment.,low,0,0,0,0,0
+ROW_052,diabetes,synthetic_high,"Monitor your blood sugar closely at home. Take insulin and medicines exactly as instructed. Follow up with clinic next week. Get help right away for severe low sugar, confusion, or vomiting.",high,1,1,1,1,0
+ROW_053,diabetes,synthetic_medium,Continue diabetes medications and watch your blood sugar at home.,medium,1,0,0,0,0
+ROW_054,diabetes,synthetic_low,Stable for discharge with diabetes treatment.,low,0,0,0,0,0
+ROW_055,post_surgery,synthetic_high,"Keep your incision clean and dry. Take pain medicine only as directed. Do not lift heavy objects for 2 weeks. Follow up with surgery clinic in 7 days. Go to the emergency room for fever, heavy bleeding, or worsening pain.",high,1,1,1,1,0
+ROW_056,post_surgery,synthetic_medium,Keep the wound clean and take pain medicine if needed. Follow up with surgery clinic.,medium,1,1,0,1,0
+ROW_057,post_surgery,synthetic_low,Post-op instructions provided. Activity as tolerated.,low,0,0,0,0,0
+ROW_058,copd,synthetic_high,"You were treated for a COPD flare. Rest, use inhalers correctly, and avoid smoking. Seek help right away for severe breathing trouble. Make a follow-up appointment within 7 days.",high,1,1,0,1,0
+ROW_059,copd,synthetic_medium,Continue breathing treatments and avoid smoking.,medium,0,0,0,1,0
+ROW_060,copd,synthetic_low,Return home and continue care.,low,0,0,0,0,0
+ROW_061,heart_failure,synthetic_high,Take your heart failure medicines every day. Limit salt and fluids as instructed. Weigh yourself each morning and write it down. Follow up with your heart doctor next week. Seek emergency care for severe breathing trouble or chest pain.,high,1,1,1,1,0
+ROW_062,heart_failure,synthetic_medium,Take your medications every day and try to limit salt. Contact your doctor if swelling or shortness of breath increases.,medium,1,1,0,1,0
+ROW_063,heart_failure,synthetic_low,Heart failure improved. Continue usual care.,low,0,0,0,0,0
+ROW_064,pneumonia,synthetic_high,"You were treated for pneumonia. Finish all antibiotics. Rest and drink plenty of fluids. Follow up with your doctor in one week. Seek urgent care for worsening fever, chest pain, or trouble breathing.",high,1,1,1,1,0
+ROW_065,pneumonia,synthetic_medium,Take antibiotics as directed. Rest and drink fluids. Follow up with your doctor.,medium,1,1,0,1,0
+ROW_066,pneumonia,synthetic_low,Pneumonia improved. Discharge today.,low,0,0,0,0,0
+ROW_067,diabetes,synthetic_high,"You were treated for diabetes-related problems. Continue insulin and diabetes pills as directed. Watch for sweating, shaking, confusion, or very high sugar readings. Schedule follow-up in 7 days.",high,1,1,1,0,0
+ROW_068,diabetes,synthetic_medium,Check sugars regularly and call your doctor for low blood sugar.,medium,0,1,1,0,0
+ROW_069,diabetes,synthetic_low,Resume diabetes care at home.,low,0,0,0,0,0
+ROW_070,post_surgery,synthetic_high,"Take your pain medicine only if needed. Keep the wound dry and avoid heavy lifting. Call your surgeon for drainage, redness, fever, or worsening pain. Follow up in one week.",high,1,1,1,1,0
+ROW_071,post_surgery,synthetic_medium,Take care of the incision and arrange follow-up soon.,medium,0,1,0,0,0
+ROW_072,post_surgery,synthetic_low,Surgery recovery stable. Resume routine as able.,low,0,0,0,0,0
+ROW_073,copd,synthetic_high,Use your inhalers exactly as prescribed. Finish your steroid or antibiotic if one was ordered. Avoid smoke exposure. Follow up with your doctor in one week. Go to urgent care for worsening shortness of breath or blue lips.,high,1,1,1,1,0
+ROW_074,copd,synthetic_medium,Use inhalers as directed and follow up with your doctor. Call if breathing gets worse.,medium,1,1,1,0,0
+ROW_075,copd,synthetic_low,COPD stable for discharge.,low,0,0,0,0,0
+ROW_076,heart_failure,synthetic_high,Your heart failure symptoms improved. Keep taking your water pill and heart medicines. Check your weight every day and call your doctor if you gain more than 2 pounds in a day. Follow up in one week. Get urgent help for trouble breathing or chest pain.,high,1,1,1,0,0
+ROW_077,heart_failure,synthetic_medium,Continue your medicines and watch for swelling or breathing problems. Make a follow-up appointment soon.,medium,1,1,0,0,0
+ROW_078,heart_failure,synthetic_low,Discharge home today. Resume treatment plan.,low,0,0,0,0,0
+ROW_079,pneumonia,synthetic_high,"You are going home after pneumonia treatment. Take your medicines exactly as directed. Rest, drink water, and follow up with your doctor within 7 days. Get emergency help for severe breathing problems.",high,1,1,1,1,0
+ROW_080,pneumonia,synthetic_medium,"Continue treatment at home, get rest, and call if breathing gets worse.",medium,0,0,1,1,0
+ROW_081,pneumonia,synthetic_low,Patient stable for home discharge.,low,0,0,0,0,0
+ROW_082,diabetes,synthetic_high,Check your blood sugar before meals and at bedtime. Take insulin exactly as prescribed. Eat regular meals. Follow up with your doctor within one week. Call if your blood sugar is repeatedly low or above your target range.,high,1,1,1,0,0
+ROW_083,diabetes,synthetic_medium,Take insulin as prescribed and monitor your blood sugar. Follow up with clinic next week.,medium,1,1,0,1,0
+ROW_084,diabetes,synthetic_low,Diabetes instructions given. Continue medications.,low,1,0,0,0,0
+ROW_085,post_surgery,synthetic_high,"You had surgery and are ready to go home. Walk a little each day. Watch for redness, swelling, drainage, or fever. Follow up with your surgeon next week.",high,0,1,1,1,0
+ROW_086,post_surgery,synthetic_medium,Avoid heavy lifting and call if pain worsens.,medium,0,0,1,1,0
+ROW_087,post_surgery,synthetic_low,Discharge home after surgery.,low,0,0,0,0,0
+ROW_088,copd,synthetic_high,Continue your inhalers and breathing treatments at home. Do not smoke. Call your doctor if your cough or breathing worsens. Get emergency help for severe shortness of breath.,high,1,1,1,0,0
+ROW_089,copd,synthetic_medium,Take your medicines and monitor your breathing at home.,medium,1,0,0,1,0
+ROW_090,copd,synthetic_low,Patient improved and ready for discharge.,low,0,0,0,0,0
+ROW_091,heart_failure,synthetic_high,"You were treated for heart failure. Take your medicines exactly as prescribed. Weigh yourself every morning before breakfast. Limit salt. Follow up with cardiology within 7 days. Go to the emergency room for chest pain, fainting, or severe shortness of breath.",high,1,1,1,1,0
+ROW_092,heart_failure,synthetic_medium,Take your heart medicines as prescribed. Limit salt and follow up with your doctor next week. Call if symptoms get worse.,medium,1,1,1,1,0
+ROW_093,heart_failure,synthetic_low,Stable for discharge. Continue meds. Follow up as needed.,low,0,1,0,0,0
+ROW_094,pneumonia,synthetic_high,Take the full antibiotic course even if you feel better. Use your inhaler if prescribed. Drink fluids and rest. Call your doctor if your cough worsens or you have difficulty breathing.,high,1,1,1,1,0
+ROW_095,pneumonia,synthetic_medium,Complete your medicine and contact your doctor if symptoms worsen.,medium,1,1,0,0,0
+ROW_096,pneumonia,synthetic_low,Go home and continue treatment.,low,0,0,0,0,0
+ROW_097,diabetes,synthetic_high,"Monitor your blood sugar closely at home. Take insulin and medicines exactly as instructed. Follow up with clinic next week. Get help right away for severe low sugar, confusion, or vomiting.",high,1,1,1,1,0
+ROW_098,diabetes,synthetic_medium,Continue diabetes medications and watch your blood sugar at home.,medium,1,0,0,0,0
+ROW_099,diabetes,synthetic_low,Stable for discharge with diabetes treatment.,low,0,0,0,0,0
+ROW_100,post_surgery,synthetic_high,"Keep your incision clean and dry. Take pain medicine only as directed. Do not lift heavy objects for 2 weeks. Follow up with surgery clinic in 7 days. Go to the emergency room for fever, heavy bleeding, or worsening pain.",high,1,1,1,1,0

@@ -1,0 +1,17 @@
+file_name,text_length,medications,followup,warning_signs,test_results,home_care
+ahrq_ideal_discharge.txt,8748,1,1,0,1,1
+ahrq_ideal_discharge_pdf_info.txt,201481,0,0,0,0,0
+copd_adults_discharge.txt,11021,1,1,1,0,1
+copd_ask_doctor.txt,7494,1,1,1,0,1
+copd_control_drugs.txt,8972,1,1,1,0,1
+copd_quick_relief_drugs.txt,9006,1,1,1,0,1
+heart_failure_discharge.txt,13705,1,1,1,1,1
+heart_failure_fluids_diuretics.txt,10999,1,1,1,0,1
+heart_failure_home_monitoring.txt,9926,1,1,1,0,1
+medlineplus_easy_to_read.txt,19641,1,1,0,0,0
+medlineplus_health_topics.txt,2602,1,0,0,0,0
+medlineplus_xml_page.txt,5305,1,0,0,0,0
+pancreatitis_discharge.txt,8593,1,1,1,1,1
+pneumonia_adults_discharge.txt,8859,1,1,1,0,1
+spine_surgery_discharge.txt,11465,1,1,1,0,1
+stroke_discharge.txt,14107,1,1,1,1,1
